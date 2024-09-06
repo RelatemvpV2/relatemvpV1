@@ -1,0 +1,42 @@
+/* css for welcome page and also for FirstStep */
+
+.welcome-page {
+    height: inherit;
+}
+
+/* remove once component GreyBg works */
+/* .welcome-header {
+    background-color: #41414E;
+    height:70vh;
+} */
+
+/* img {
+    margin: 10vh auto 0;
+} */
+
+.welcome-text {
+    margin: 10vh auto 5vh;
+    /* color: #F9EEE1;
+    text-align: center; */
+}
+
+.welcome-desc {
+    margin: auto;
+    width: 75vw;
+    /* color: #F9EEE1;
+    text-align: center; */
+    
+}
+
+/* .welcome-btn-section {
+    padding-top:5vh; */
+    /* height: 25vh; *//* remove once component LightBg works */
+    /* background-color: #F9EEE1; *//* remove once component LightBg works */
+/* } */
+
+
+@media only screen and (max-width: 600px) {
+    .welcome-desc {
+        width: 260px;
+    }
+  }

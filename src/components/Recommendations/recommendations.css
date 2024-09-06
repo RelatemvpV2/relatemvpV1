@@ -1,0 +1,48 @@
+.recommendations{
+    height:inherit;
+}
+
+
+.recommendations-header {
+
+    font-family: Cormorant Garamond;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.para {
+    margin: 2% auto 5%;
+    width: 75vw;
+    color: #F9EEE1;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: Lighter;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+}   
+
+.recommendations-section *{
+    margin: 1% auto;
+}
+
+.recomend-facilitate {
+    margin : 10% auto 2%;
+}
+
+.recommendations-btn-section *{
+margin:20px auto;
+}
+.No-thanks{
+    color:#41414E;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .para{
+        width: 300px;
+    }
+  }

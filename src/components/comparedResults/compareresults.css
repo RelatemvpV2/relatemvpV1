@@ -1,0 +1,102 @@
+.compared-results-page {
+    height: inherit;
+}
+
+.compared-results-text {
+    width: 75vw;
+}
+
+/* .compared-results {
+    display:flex;
+} */
+
+.Hline-style {
+    margin: 20px auto;
+}
+
+.compared-results-q1-score {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+
+
+}
+
+.Score-bar-section {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+
+}
+
+.Score-bar-section p {
+    margin: 0;
+}
+
+.Your-score,
+.partner-score {
+    font-size: 12px;
+}
+
+.catagory {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.catagory-name {
+
+    flex: 150px 0;
+}
+
+.bar {
+    flex: 1
+}
+
+.bar section p {
+    flex: 20px 0;
+}
+
+/* .bar section div {
+    flex:1;
+} */
+.long-Vlines,
+.short-Vlines {
+    margin: 0;
+    position: absolute;
+    right: 4px;
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+}
+
+.long-Vlines {
+    margin: 0;
+    position: absolute;
+    right: 35.5%;
+    bottom: 40%;
+
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+}
+
+.compared-results-btn-section {
+    margin: 2% auto;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .compared-results-text {
+        width: 260px;
+    }
+}

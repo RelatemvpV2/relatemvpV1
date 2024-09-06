@@ -1,0 +1,70 @@
+.login-page {
+    height: inherit;
+}
+
+.Para {
+    color:#F9EEE1;
+    margin:15px 0;
+}
+
+.login-btns-section {
+   /*  background-color: #41414E;
+    height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btns-section button,.login-btns-section input {
+    margin: 5px 0;
+}
+
+::placeholder {
+    text-align: center; 
+    color: #41414E;
+ }
+
+ .signIn-text span,.forgot-password{
+    text-decoration: underline;
+    cursor:pointer;
+ }
+
+ .error-msg {
+    color:red;
+ }
+
+
+/* .login-continue-btn {
+    padding-top:5vh; */
+    /* height: 25vh; *//* remove once component LightBg works */
+  /*   background-color: #F9EEE1; */
+/* } */
+
+
+.create-account-header {
+    /* margin: 20vh auto 0;
+    color: #F9EEE1;
+    text-align: center; */
+    font-family: Cormorant Garamond;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+/* .input-email {
+    width: 260px;
+    height: 40px;
+    background-color: #F9EEE1;
+    border: 0;
+    border-radius: 40px;
+    color: #41414E;
+    font-family: Raleway; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.32px;
+    border: none;
+} */

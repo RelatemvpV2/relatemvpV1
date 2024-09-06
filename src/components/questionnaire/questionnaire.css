@@ -1,0 +1,17 @@
+
+.Questionnaire-page
+{
+    height: 100vh;
+}
+
+
+.para {
+    margin:2vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .question-Header,.para {
+        width: 300px;
+    }
+  }

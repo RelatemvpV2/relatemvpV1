@@ -1,0 +1,95 @@
+.complete-profile{
+    height:inherit;
+}
+
+
+/* .profile-input-section {
+    background-color: #41414E;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.complete-profile-header {
+  /*  margin:10vh auto 0;
+    color: #F9EEE1;
+    text-align: center; */
+    font-family: Cormorant Garamond;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.para {
+    margin: 2% auto 5%;
+    width: 75vw;
+    color: #F9EEE1;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: Lighter;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+}   
+.skip {
+    color:#F9EEE1;
+    text-decoration: none;
+}
+
+.gender,.children{
+
+    display: block;
+  
+    width: 260px;
+    height: 40px;
+    background-color: #F9EEE1;
+    border: 0;
+    border-radius: 40px;
+    color: #41414E;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.32px;
+    border: none;
+    margin:5px auto 10px;
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+.age 
+{
+    width: 253px;
+height: 38px;
+background-color: #F9EEE1;
+border: 0;
+border-radius: 40px;
+color: #41414E;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.32px;
+border: none;
+margin:5px 0;
+text-align: center;}
+.gender:focus, .gender:active ,.children:focus,.children:active{
+    outline: none;
+}
+/* .profile-submit-btn {
+    padding-top:5vh; */
+   /*  height: 25vh; *//* remove once component LightBg works */
+    /* background-color: #F9EEE1; */
+/* } */
+
+@media only screen and (max-width: 600px) {
+    .para{
+        width: 260px;
+    }
+  }

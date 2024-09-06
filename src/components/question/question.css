@@ -1,0 +1,73 @@
+.Question-page {
+    height: inherit;
+}
+
+.question-Header {
+    margin-bottom: 0;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.para {
+    margin: 2vh;
+    font-size: 16px;
+}
+
+.Qno {
+    margin: 1% auto;
+}
+
+.Options-section {
+    cursor: pointer;
+}
+
+
+.Options-section section:hover div,
+.Options-section section:focus div,.option-active section div {
+    background-color: #C68977 !important;
+    color: rgb(249, 238, 225);
+}
+.option-active section p  {
+  
+    color: #C68977;
+}
+
+.Options-section section:hover div p,
+.Options-section section:focus div p {
+    color: rgb(249, 238, 225);
+}
+
+.Options-section section:hover p,
+.Options-section section:focus p {
+    color: #C68977
+}
+
+.Options-section:hover {
+    color: #C68977
+}
+
+.options-div {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+flex-basis: 40vh;
+}
+
+.go-back-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #41414E;
+    height:20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .question-Header,
+    .para {
+        width: 300px;
+    }
+}

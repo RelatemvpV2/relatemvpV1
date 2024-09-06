@@ -1,0 +1,47 @@
+.input-style {
+    width: 260px;
+    height: 40px;
+    background-color: #F9EEE1;
+    border: 0;
+    border-radius: 40px;
+    color: #41414E;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.32px;
+    border: none;
+    margin:5px 0;
+    text-align: center;
+}
+
+.input-style:focus, .input-style:active {
+    outline: none;
+}
+
+.next-step-page {
+    height: inherit;
+}
+
+
+.next-step-text {
+    margin: 5vh auto 5vh;
+}
+
+.next-step-desc {
+    margin: 0 auto 8vh;
+    width: 75vw;
+    
+}
+.go-back {
+    margin-top: 40px; 
+    color:rgb(249, 238, 225);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .next-step-desc {
+        width: 260px;
+    }
+  }

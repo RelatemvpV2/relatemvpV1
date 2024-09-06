@@ -1,0 +1,23 @@
+.summary-page {
+    height: inherit;
+}
+
+.summary-header-section {
+    padding:2%
+}
+
+.summary-score-section{
+    padding:7%
+}
+
+.summary-scores, .summary-q1-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+
+.score-contineBtn-section {
+    margin:5%;
+}

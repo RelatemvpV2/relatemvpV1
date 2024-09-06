@@ -1,0 +1,43 @@
+
+.welldone-page {
+    height: inherit;
+}
+
+.welldone-text {
+    margin: 15vh auto 5vh;
+    /* color: #F9EEE1;
+    text-align: center; */
+}
+
+.welldone-desc {
+    margin: auto;
+    width: 75vw;
+}
+
+.email {
+    margin:10vh auto 0;
+}
+
+.welldone-btn-section{
+    height:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.go-to-summary {
+  
+    Color:#F9EEE1;
+    }
+
+.change-email {
+margin:2% auto;
+Color:#F9EEE1;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .welldone-desc {
+        width: 260px;
+    }
+  }

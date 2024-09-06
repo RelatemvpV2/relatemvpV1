@@ -1,0 +1,36 @@
+.button-style {
+    display: block;
+    width: 260px;
+    height: 62px;
+    background-color: #C68977;
+    border: 0;
+    border-radius: 40px;
+    color: #F9EEE1;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.36px;
+}
+
+.button-Social-style ,.button-recommend-style {
+    display: block;
+    width: 260px;
+    height: 40px;
+    background-color: #F9EEE1;
+    border: 0;
+    border-radius: 40px;
+    color: #41414E;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.32px;
+}
+
+.btn-disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
